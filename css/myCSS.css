@@ -1,19 +1,19 @@
 /* unvisited link */
-a:link {
-  color: red;
+a.bookslink:link {
+  text-decoration: none;
 }
 
 /* visited link */
-a:visited {
-  color: green;
+a.bookslink:visited {
+
 }
 
 /* mouse over link */
-a:hover {
-  color: hotpink;
+a.bookslink:hover {
+  color: green;
 }
 
 /* selected link */
-a:active {
+a.bookslink:active {
   color: blue;
 }
