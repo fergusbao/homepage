@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+
+<head>
 <title>Junyi's Resume</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +12,9 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+<script src="js/changeLanguage.js"></script>
+</head>
+
 <body class="w3-light-grey">
 
 <!-- Page Container -->
@@ -25,7 +30,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-display-container">
         <img src="images/me_and_Tesla_X.jpg" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Junyi Ye</h2>
+            <h2 id="name">Junyi Ye</h2>
           </div>
         </div>
         <div class="w3-container">
@@ -95,6 +100,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-twothird">
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <button id ="webLanguage" class="w3-btn w3-teal w3-display-topright w3-margin-top w3-margin-right" type="button" onclick="myFunction()">&nbsp;&nbsp;中文&nbsp;&nbsp;</button>
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Project Experience</h2>
 
         <div class="w3-container">
